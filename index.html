@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>spono</title>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,700i,400i|Montserrat:400,700|Raleway:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles_post.css">
+</head>
+<body>
+	<header>
+		<div class="logo">SN<span>O</span>PNO</div>
+		<div class="menu_large" id="menu_large">
+			<a href="#head" class="menu_cur_pos">Main</a>
+			<a href="#about">About us</a>
+			<a href="#works">Works</a>
+			<a href="#services">Our servise</a>
+			<a href="#team">Team</a>
+			<a href="#contact">Contacts</a>
+		</div>
+		<div class="menu_box menu_box_hover menu_box_act">
+			<img class="menu_logo" src="images/menu.svg" onclick="menuClick()" >
+		</div>
+		<nav>
+			<div class="menu" id="menu">
+					<a href="#head" class="menu_cur_pos">Main</a>
+					<a href="#about">About us</a>
+					<a href="#works">Works</a>
+					<a href="#services">Our servise</a>
+					<a href="#team">Team</a>
+					<a href="#contact">Contacts</a>
+			</div>
+		</nav>
+	</header>
+		<div class="head" id="head">
+			<h1 class="hello">SAY HELLO TO <span>SHOPNO!</span><br><span>AGENCY</span> CORPORATE SHOPNO THEME</h1>
+			<a href="#contact" class="contact_us" target="_self">CONTACT US</a>
+			<img src="images/glass.png" alt="glass" class="glass">
+		</div>
+		<div class="about" id="about">
+			<p class="bold_text">ABOUT US<br><span class="n_text">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</span></p>
+			<div class="wrap position_about">
+				<input type="radio" name="point" class="about_radio" id="slide1">
+				<input type="radio" name="point" class="about_radio" id="slide2" checked>
+				<input type="radio" name="point" class="about_radio" id="slide3">
+				<input type="radio" name="point" class="about_radio" id="slide4">
+				<div class="slider">
+					<div class="slides slide1"></div>
+					<div class="slides slide2"></div>
+					<div class="slides slide3"></div>
+					<div class="slides slide4"></div>
+				</div>
+				<div class="cont">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>
+				</div>
+			</div>
+			<div class="backplate"></div>
+			<div class="block_text">
+				<p class="head_b">WE ACTUALLY DO AMAZING WORKS</p>
+				<p class="text">A visual approach is an approach to a runway at an airport 
+					conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. Conducted under instrument flight rules. The pilot must at all times.
+
+					Preceding aircraft in approach correct sight. conducted under instrument flight rules.
+				</p>
+				<br><p class="head_b">WHY WE ARE THE GREAT?</p>
+				<p class="text">A visual approach is an approach to a runway at an airport
+					conducted under instrument flight rules. 
+					The preceding aircraft in approach correct sight.
+				</p>
+			</div>
+		</div>
+		<div class="works" id="works">
+			<p class="bold_text">FEATURED WORKS<br><span class="n_text">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</span></p>
+			<div class="img">
+				<img src="images/ban1.jpg" alt="icecream">
+				<img src="images/ban2.jpg" alt="visit card">
+				<img src="images/ban3.jpg" alt="bottle">
+				<img src="images/ban4.jpg" alt="book">
+				<img src="images/ban5.jpg" alt="nine">
+				<img src="images/ban6.jpg" alt="packet">
+			</div>
+		</div>
+		<div class="service" id="services">
+			<p class="bold_text">OUR SERVICES<br><span class="n_text">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</span></p>
+			<div class="services">
+				<div class="banner one" onclick="showMore(0)">
+					<img src="images/serv1.jpg">
+					<div class="details">
+						<p class='head_popup'>DESIGNING IS THE COOL LOVE FOR</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know...
+						</p>
+						<div class="know">
+							KNOW MORE
+							<img src="images/know.png">
+						</div>
+					</div>
+					<div class="more" onclick="event.stopPropagation()">
+						<p class='head_popup'>DESIGNING IS THE COOL LOVE FOR</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+						</p>
+						<img src="images/close.png" onclick="closeMore(0)">
+					</div>
+				</div>
+				<div class="banner two" onclick="showMore(1)">
+					<img src="images/serv2.jpg" id="banner_two">
+					<div class="details">
+						<p class='head_popup'>IS THE COOL</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know...
+						</p>
+						<div class="know">
+							KNOW MORE
+							<img src="images/know.png">
+						</div>
+					</div>
+					<div class="more" onclick="event.stopPropagation()">
+						<p class='head_popup'>IS THE COOL </p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think.
+						</p>
+						<img src="images/close.png" onclick="closeMore(1)">
+					</div>
+				</div>
+				<div class="banner three" onclick="showMore(2)">
+					<img src="images/serv3.jpg">
+					<div class="details">
+						<p class='head_popup'>DESIGNING IS THE COOL LOVE FOR</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know...
+						</p>
+						<div class="know">
+							KNOW MORE
+							<img src="images/know.png">
+						</div>
+					</div>
+					<div class="more" onclick="event.stopPropagation()">
+						<p class='head_popup'>DESIGNING IS THE COOL LOVE FOR</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+						</p>
+						<img src="images/close.png" onclick="closeMore(2)">
+					</div>
+				</div>
+				<div class="banner four" onclick="showMore(3)">
+					<img src="images/serv4.jpg" id="banner_four">
+					<div class="details">
+						<p class='head_popup'>IS THE COOL</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know...
+						</p>
+						<div class="know">
+							KNOW MORE
+							<img src="images/know.png">
+						</div>
+					</div>
+					<div class="more" onclick="event.stopPropagation()">
+						<p class='head_popup'>IS THE COOL </p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think.
+						</p>
+						<img src="images/close.png" onclick="closeMore(3)">
+					</div>
+				</div>
+				<div class="banner six" onclick="showMore(4)">
+					<img src="images/serv6.jpg">
+					<div class="details">
+						<p class='head_popup'>DESIGNING IS THE COOL LOVE FOR</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know...
+						</p>
+						<div class="know">
+							KNOW MORE
+							<img src="images/know.png">
+						</div>
+					</div>
+					<div class="more" onclick="event.stopPropagation()">
+						<p class='head_popup'>DESIGNING IS THE COOL LOVE FOR</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+						</p>
+						<img src="images/close.png" onclick="closeMore(4)">
+					</div>
+				</div>
+				<div class="banner five" onclick="showMore(5)">
+					<img src="images/serv5.jpg" id="banner_five">
+					<div class="details">
+						<p class='head_popup'>IS THE COOL</p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know...
+						</p>
+						<div class="know">
+							KNOW MORE
+							<img src="images/know.png">
+						</div>
+					</div>
+					<div class="more" onclick="event.stopPropagation()">
+						<p class='head_popup'>IS THE COOL </p>
+						<p class="text_popup">
+							Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think.
+						</p>
+						<img src="images/close.png" onclick="closeMore(5)">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="team" id="team">
+			<p class="bold_text">SMALL TEAM<br><span class="n_text">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</span></p>
+			<div class="team_block">
+				<div class="human" onclick="social(0)">
+					<div class="popup">
+						<p class='head_popup'>EMILY JOHNSON<br><span> | UI Designer</span></p>
+						<p class="text_popup">
+							Lorem Ipsum is not simply is an 
+							 action designer random text 
+							It has roots in a piece. 
+						</p>
+						<div class="socials">
+							<a href="https://www.facebook.com/" title="facebook">
+								<img src="images/facebook_b.svg" alt="facebook" class="facebook">
+							</a>
+							<a href="https://twitter.com" title="twitter">
+								<img src="images/twitter_b.svg" alt="twitter" class="twitter">
+							</a>
+							<a href="https://dribbble.com/" title="dribbble">
+								<img src="images/dribbble_b.svg" alt="dribbble" class="dribb">
+							</a>
+							<a href="https://www.gmail.com" title="mail">
+								<img src="images/mail2.svg" alt="mail" class="mail">
+							</a>
+						</div>
+					</div>
+					<img src="images/hum1.jpg" alt="Emily Johnson">
+				</div>
+				<div class="human" onclick="social(1)">
+					<div class="popup">
+						<p class='head_popup'>AL RAYHAN<br><span> | UI Designer</span></p>
+						<p class="text_popup">
+							Lorem Ipsum is not simply is an 
+							 action designer random text 
+							It has roots in a piece. 
+						</p>
+						<div class="socials">
+							<a href="https://www.facebook.com/" title="facebook">
+								<img src="images/facebook_b.svg" alt="facebook" class="facebook">
+							</a>
+							<a href="https://twitter.com" title="twitter">
+								<img src="images/twitter_b.svg" alt="twitter" class="twitter">
+							</a>
+							<a href="https://dribbble.com/" title="dribbble">
+								<img src="images/dribbble_b.svg" alt="dribbble" class="dribb">
+							</a>
+							<a href="https://www.gmail.com" title="mail">
+								<img src="images/mail2.svg" alt="mail" class="mail">
+							</a>
+						</div>
+					</div>
+					<img src="images/hum2.jpg" alt="AL RAYHAN">
+				</div>
+				<div class="human" onclick="social(2)">
+					<div class="popup">
+						<p class='head_popup'>JASON MORRIS<br><span> | UI Designer</span></p>
+						<p class="text_popup">
+							Lorem Ipsum is not simply is an 
+							 action designer random text 
+							It has roots in a piece. 
+						</p>
+						<div class="socials">
+							<a href="https://www.facebook.com/" title="facebook">
+								<img src="images/facebook_b.svg" alt="facebook" class="facebook">
+							</a>
+							<a href="https://twitter.com" title="twitter">
+								<img src="images/twitter_b.svg" alt="twitter" class="twitter">
+							</a>
+							<a href="https://dribbble.com/" title="dribbble">
+								<img src="images/dribbble_b.svg" alt="dribbble" class="dribb">
+							</a>
+							<a href="https://www.gmail.com" title="mail">
+								<img src="images/mail2.svg" alt="mail" class="mail">
+							</a>
+						</div>
+					</div>
+					<img src="images/hum3.jpg" alt="Jason Morris">
+				</div>
+				<div class="human" onclick="social(3)">
+					<div class="popup">
+						<p class='head_popup'>MATTHEW COOK<br><span> | UI Designer</span></p>
+						<p class="text_popup">
+							Lorem Ipsum is not simply is an 
+							 action designer random text 
+							It has roots in a piece. 
+						</p>
+						<div class="socials">
+							<a href="https://www.facebook.com/" title="facebook">
+								<img src="images/facebook_b.svg" alt="facebook" class="facebook">
+							</a>
+							<a href="https://twitter.com" title="twitter">
+								<img src="images/twitter_b.svg" alt="twitter" class="twitter">
+							</a>
+							<a href="https://dribbble.com/" title="dribbble">
+								<img src="images/dribbble_b.svg" alt="dribbble" class="dribb">
+							</a>
+							<a href="https://www.gmail.com" title="mail">
+								<img src="images/mail2.svg" alt="mail" class="mail">
+							</a>
+						</div>
+					</div>
+					<img src="images/hum4.jpg" alt="Matthew Cook">
+				</div>
+				<div class="human" onclick="social(4)">
+					<div class="popup">
+						<p class='head_popup'>SAMANTHA BROWN<br><span> | UI Designer</span></p>
+						<p class="text_popup">
+							Lorem Ipsum is not simply is an 
+							 action designer random text 
+							It has roots in a piece. 
+						</p>
+						<div class="socials">
+							<a href="https://www.facebook.com/" title="facebook">
+								<img src="images/facebook_b.svg" alt="facebook" class="facebook">
+							</a>
+							<a href="https://twitter.com" title="twitter">
+								<img src="images/twitter_b.svg" alt="twitter" class="twitter">
+							</a>
+							<a href="https://dribbble.com/" title="dribbble">
+								<img src="images/dribbble_b.svg" alt="dribbble" class="dribb">
+							</a>
+							<a href="https://www.gmail.com" title="mail">
+								<img src="images/mail2.svg" alt="mail" class="mail">
+							</a>
+						</div>
+					</div>
+					<img src="images/hum5.jpg" alt="Samantha Brown">
+				</div>
+				<div class="human" onclick="social(5)">
+					<div class="popup">
+						<p class='head_popup'>EMILY JOHNSON<br><span> | UI Designer</span></p>
+						<p class="text_popup">
+							Lorem Ipsum is not simply is an 
+							 action designer random text 
+							It has roots in a piece. 
+						</p>
+						<div class="socials">
+							<a href="https://www.facebook.com/" title="facebook">
+								<img src="images/facebook_b.svg" alt="facebook" class="facebook">
+							</a>
+							<a href="https://twitter.com" title="twitter">
+								<img src="images/twitter_b.svg" alt="twitter" class="twitter">
+							</a>
+							<a href="https://dribbble.com/" title="dribbble">
+								<img src="images/dribbble_b.svg" alt="dribbble" class="dribb">
+							</a>
+							<a href="https://www.gmail.com" title="mail">
+								<img src="images/mail2.svg" alt="mail" class="mail">
+							</a>
+						</div>
+					</div>
+					<img src="images/hum1.jpg" alt="Emily Johnson">
+				</div>
+			</div>
+		</div>
+		<div class="say">
+			<p class="bold_text">WHAT THEY SAYS<br><span class="n_text">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</span></p>
+			<div class="wrap position_about">
+				<input type="radio" name="point1" class="say_radio" id="slide5" checked>
+				<input type="radio" name="point1" class="say_radio" id="slide6">
+				<input type="radio" name="point1" class="say_radio" id="slide7">
+				<input type="radio" name="point1" class="say_radio" id="slide8">
+				<input type="radio" name="point1" class="say_radio" id="slide9">
+				<input type="radio" name="point1" class="say_radio" id="slide10">
+				<div class="slider">
+					<div class="slides slide5"></div>
+					<div class="slides slide6"></div>
+					<div class="slides slide7"></div>
+					<div class="slides slide8"></div>
+					<div class="slides slide9"></div>
+					<div class="slides slide10"></div>
+				</div>
+				<div class="cont">
+					<label for="slide5"></label>
+					<label for="slide6"></label>
+					<label for="slide7"></label>
+					<label for="slide8"></label>
+					<label for="slide9"></label>
+					<label for="slide10"></label>
+				</div>
+			</div>
+			<div class="backplate"></div>
+			<div class="text_say">
+				<div class="slide_say show">
+					<p class='head_popup'>EMILY JOHNSON<span> | UI/UX Designer</span></p>
+					<p class="text_popup">
+						Lorem Ipsum is simply dummy text of the printing and you 
+						standard dummy know that text ever since the 1500s, when  an 
+						 unknown printer took a galley of type and scrambled it to  make a 
+						 type specimen book.
+					</p>
+					<div class="stars">
+						<img src="images/star.svg" alt="1" class="star">
+						<img src="images/star.svg" alt="2" class="star">
+						<img src="images/star.svg" alt="3" class="star">
+						<img src="images/star.svg" alt="4" class="star">
+						<img src="images/star.svg" alt="5" class="star">
+					</div>
+				</div>
+				<div class="slide_say">
+					<p class='head_popup'>JASON MORRIS<span> | UI/UX Designer</span></p>
+					<p class="text_popup">
+						Lorem Ipsum is simply dummy text of the printing and you 
+						standard dummy know that text ever since the 1500s, when  an 
+						 unknown printer took a galley of type and scrambled it to  make a 
+						 type specimen book.
+					</p>
+					<div class="stars">
+						<img src="images/star.svg" alt="1" class="star">
+						<img src="images/star.svg" alt="2" class="star">
+						<img src="images/star.svg" alt="3" class="star">
+						<img src="images/star.svg" alt="4" class="star">
+						
+					</div>
+				</div>
+				<div class="slide_say">
+					<p class='head_popup'>AL RAYHAN<span> | UI/UX Designer</span></p>
+					<p class="text_popup">
+						Lorem Ipsum is simply dummy text of the printing and you 
+						standard dummy know that text ever since the 1500s, when  an 
+						 unknown printer took a galley of type and scrambled it to  make a 
+						 type specimen book.
+					</p>
+					<div class="stars">
+						<img src="images/star.svg" alt="1" class="star">
+						<img src="images/star.svg" alt="2" class="star">
+						<img src="images/star.svg" alt="3" class="star">
+						<img src="images/star.svg" alt="4" class="star">
+						<img src="images/star.svg" alt="5" class="star">
+					</div>
+				</div>
+				<div class="slide_say">
+					<p class='head_popup'>MATTHEW COOK<span> | UI/UX Designer</span></p>
+					<p class="text_popup">
+						Lorem Ipsum is simply dummy text of the printing and you 
+						standard dummy know that text ever since the 1500s, when  an 
+						 unknown printer took a galley of type and scrambled it to  make a 
+						 type specimen book.
+					</p>
+					<div class="stars">
+						<img src="images/star.svg" alt="1" class="star">
+						<img src="images/star.svg" alt="2" class="star">
+						<img src="images/star.svg" alt="3" class="star">
+						<img src="images/star.svg" alt="4" class="star">
+						
+					</div>
+				</div>
+				<div class="slide_say">
+					<p class='head_popup'>EMILY JOHNSON<span> | UI/UX Designer</span></p>
+					<p class="text_popup">
+						Lorem Ipsum is simply dummy text of the printing and you 
+						standard dummy know that text ever since the 1500s, when  an 
+						 unknown printer took a galley of type and scrambled it to  make a 
+						 type specimen book.
+					</p>
+					<div class="stars">
+						<img src="images/star.svg" alt="1" class="star">
+						<img src="images/star.svg" alt="2" class="star">
+						<img src="images/star.svg" alt="3" class="star">
+						<img src="images/star.svg" alt="4" class="star">
+						<img src="images/star.svg" alt="5" class="star">
+					</div>
+				</div>
+				<div class="slide_say">
+					<p class='head_popup'>SAMANTHA BROWN<span> | UI/UX Designer</span></p>
+					<p class="text_popup">
+						Lorem Ipsum is simply dummy text of the printing and you 
+						standard dummy know that text ever since the 1500s, when  an 
+						 unknown printer took a galley of type and scrambled it to  make a 
+						 type specimen book.
+					</p>
+					<div class="stars">
+						<img src="images/star.svg" alt="1" class="star">
+						<img src="images/star.svg" alt="2" class="star">
+						<img src="images/star.svg" alt="3" class="star">
+						<img src="images/star.svg" alt="4" class="star">
+						
+					</div>
+				</div>
+				<div class="slide_buttons">
+					<img src="images/back.png" class="slide_but" id="back" alt="back">
+					<img src="images/next.png" class="slide_but" id="next" alt="next">
+				</div>
+			</div>
+		</div>
+		<div class="partners">
+			<img src="images/logo.png" alt="partners">
+		</div>
+		<div class="contacts" id="contact">
+			<form class="message" id="myForm" method="post">
+				<input type="text" name="name" form="myForm" class="name" placeholder="Name*">
+				<input type="text" name="subject" form="myForm" class="subject" placeholder="Subject*">
+				<input type="email" name="email" form="myForm" class="email_form" placeholder="E-mail*">
+				<textarea type="text" name="message" form="myForm" class="message_form" placeholder="Message*"></textarea>
+				<input type="button" name="send" form="myForm" class="button" value="SEND MESSAGE">
+			</form>
+			<div class="address">
+				<p class="street">Address line 1</p>
+				<p class="street">Address line 2</p>
+				<p class="phone">Phone: +543212345678</p>
+				<p class="fax">Fax: +5431254321</p>
+				<span>Web: <a href="" class="web">www.website.net</a></span>
+				<p class="email">E-mail: info@website.net</p>
+				<div class="frame">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2670.115984679226!2d37.79703763591423!3d47.99214562686011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1542307859875" width="100%" height="255" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	<footer>
+		<p class="follow">FOLLOW US</p>
+		<div class="main_socials">
+			<a href="https://www.pinterest.com/" class="main_pinterest" title="pinterest"></a>
+			<a href="https://twitter.com" class="main_twitter" title="twitter"></a>
+			<a href="https://www.facebook.com/" class="main_facebook" title="facebook"></a>
+			<a href="https://dribbble.com/" class="main_dribb" title="dribbble"></a>
+		</div>
+		<p class="copyright">&copy; Dmitry Saveliev, 2018</p>
+	</footer>
+	<div id="up" title="В начало" onclick="scrollUp()"></div>
+	<script src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/scroll.js"></script>
+</body>
+</html>

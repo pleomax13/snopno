@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#menu").on("click","a",function(t){t.preventDefault();let e=$(this).attr("href"),n=$(e).offset().top-100;$("body,html").animate({scrollTop:n},1e3)})}),$(document).ready(function(){$("#menu_large").on("click","a",function(t){t.preventDefault();let e=$(this).attr("href"),n=$(e).offset().top-100;$("body,html").animate({scrollTop:n},1e3)})});
